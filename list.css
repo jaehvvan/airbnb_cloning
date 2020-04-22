@@ -1,0 +1,313 @@
+header {
+    width: 100%;
+    height: 73px;
+    position: fixed;
+    margin-top: -8px;
+    z-index: 1;
+    border-bottom: 2px lightgrey solid;
+    background-color: white;
+
+}
+
+.header_inner {
+    height: 73px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    height: 40px;
+    width: 80px;
+    margin: 17px 18px;
+}
+
+.logo_img {
+    height: 32px;
+    width: auto;
+}
+
+.information_set {
+    height: 45px;
+    width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-left: -5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.information_set:hover {
+    box-shadow: lightslategrey 1px 1px 3px;
+}
+
+.info {
+    height: 40px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.city, .days, .people {
+    border-right: 1px solid #F6F6F6;
+}
+
+.mag_glass {
+    width:20px;
+    height: auto;
+}
+.buttons{
+    height: 70px;
+    width: 260px;
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.button{
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    padding-right: 3px;
+    padding-left: 3px;
+
+}
+.button:hover {
+    background-color: #F6F6F6;
+}
+
+.language {
+    width: 60px;
+}
+.globe_img{
+    width: 15px;
+    height: auto;
+}
+
+.arrow_img{
+    width: 20px;
+    height: auto;
+}
+
+.help{
+    width: 60px;
+}
+
+.signup{
+    width: 80px;
+    border: 1px solid #E2E2E2;
+}
+.signup:hover {
+    background-color: white;
+    box-shadow: lightslategrey 1px 1px 3px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list {
+    width: 44%;
+    height: auto;
+    margin-top:74px;
+}
+
+.map {
+    width: 56%;
+    height: 100%;
+    margin-top:74px;
+}
+
+.seoul_map {
+    width: 56%;
+    height: 850px;
+    position: fixed;
+}
+.seoul_map:hover {
+    cursor: grab;
+}
+
+.summary { 
+    height: 100px;
+    margin-top: 20px;    
+}
+
+.infosummary {
+    font-size: 14px;
+    padding: 15px 15px;
+    line-height: 13px;
+}
+
+.infosummary h1 {
+    font-size: 30px;
+}
+
+.filters {
+    height: 60px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-left : 8px;
+}
+
+
+.filter {
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.filter:hover {
+    border: 0.5px solid #000000;
+}
+
+.alart {
+    width: 790px;
+    height: 80px;
+    display:flex;
+    box-sizing:content-box;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.clock {
+    width: 30px;
+    height: auto;
+}
+
+.alart_text {
+    font-size: 14px;
+    width: 100%;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.rooms {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.room {
+    width: 100%;
+    height: 230px;
+    border-bottom: 2px solid #E2E2E2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.room_imgs {
+    width: 40%;
+    padding-top: 7px;
+    padding-left: 5px;
+    box-sizing: content-box;
+}
+
+.room_img {
+    width: 98%;
+    height: auto;
+}
+
+.room_infos {
+    width: 60%;
+    padding: 10px;
+    box-sizing:content-box;
+}
+
+.room_header {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.room_sort {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.room_host {
+    width: auto;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding-right: 3px;
+    padding-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.room_type {
+    margin-left: 5px;
+    color: #404040;
+
+}
+
+.room_rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.star {
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+}
+
+.room_body {
+    height: 100px;
+    padding-top:-10px;
+}
+
+.room_name {
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.room_condition {
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #404040;
+}
+
+.room_footer {
+    height: 70px;
+    text-align: right;
+    line-height: 5px;
+    padding-right: 15px;
+}
+
+.priceperday {
+    font-size: 18px;
+}
+
+.totalprice {
+    color: #404040;
+    font-size: 13px;
+}
