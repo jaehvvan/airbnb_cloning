@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 /* CARD-NEWS SECTION */
 .card-news .card-blocks {
     display: flex;
@@ -62,4 +63,144 @@
 	font-size: 14px;
 	margin: 4px 0px 0px;
 	color: #717171 !important;
+=======
+
+/* 헤더 탑 */
+header .top_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    border-bottom: 1px solid;
+}
+
+/* 헤더 로고 */
+header .top_inner .top_logo {
+    height: 100px;
+    width: 300px;
+    padding-left: 20px;
+}
+header .top_inner img {
+    height: 100%;
+    width: 100%
+}
+
+/* 헤더 메뉴 */
+header .top_inner .top_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+header .top_inner .top_menu .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+header .top_inner .top_menu .language:hover {
+    width: 70px;
+    height: 70px;
+    background-color: #808080;
+    border-radius: 50px;
+}
+
+header .top_inner .top_menu .language .globe {
+    height: 20px;
+    width: 20px;
+}
+header .top_inner .top_menu .language .arrow {
+    height: 30px;
+    width: 30px;
+}
+header .top_inner .top_menu a {
+    text-decoration: none;
+    display: inline-block;
+}
+header .top_inner .top_menu a:active {
+    color: black;
+    font-weight: bold;
+}
+header .top_inner .top_menu a:link {
+    color: black;
+    font-weight: bold;
+}
+
+header .top_inner .top_menu a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+header .top_inner .top_menu .menu_1 {
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+header .top_inner .top_menu .menu_1 a {
+    width: 150px;
+    height: 40px;
+}
+
+header .top_inner .top_menu .menu_1 a:hover {
+    background-color: #808080;
+    border-radius: 50px;
+}
+
+header .top_inner .top_menu .menu_2 {
+    text-align: center;
+    line-height: 40px;
+}
+
+header .top_inner .top_menu .menu_2 a {
+    width: 150px;
+    height: 40px;
+}
+
+header .top_inner .top_menu .menu_2 a:hover {
+    background-color: #808080;
+    border-radius: 50px;
+}
+
+header .top_inner .top_menu .menu_3 {
+    text-align: center;
+    line-height: 40px;
+}
+
+header .top_inner .top_menu .menu_3 a {
+    width: 70px;
+    height: 40px;
+}
+
+header .top_inner .top_menu .menu_3 a:hover {
+    background-color: #808080;
+    border-radius: 50px;
+}
+
+header .top_inner .top_menu .login {
+    text-align: center;
+    line-height: 40px;
+}
+
+header .top_inner .top_menu .login a {
+    width: 70px;
+    height: 40px;
+}
+
+header .top_inner .top_menu .login a:hover {
+    background-color: #808080;
+    border-radius: 50px;
+}
+
+header .top_inner .top_menu .register {
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+>>>>>>> d19de89ba3212c17c7cd38dbce0322dcc03d2483
 }
