@@ -87,25 +87,25 @@
                 <!-- nav 입력 -->
                 <div class="nav_input">
                     <div class="real_input">
-                        <label for="">
+                        <label for="where">
                             <div class="location">
                                 <div class="head">
                                     위치
                                 </div>
                                 <div class="text">
-                                    <input class="write" type="text" placeholder="도시, 랜드마크 또는 주소를 입력하세요.">
+                                    <input id="where" type="text" placeholder="도시, 랜드마크 또는 주소를 입력하세요.">
                                 </div>
                             </div>
                         </label>
-                        <button>
+                        <button class="checkout">
                             <div class="checkin">
                                 <div class="head">체크인/체크아웃</div>
                                 <div class="text">
-                                    <input type="date" placeholder="날짜 추가.">
+                                    <input type="date" value="날짜 추가.">
                                 </div>
                             </div>
                         </button>                            
-                        <button>
+                        <button class="people">
                             <div class="personnel">
                                 <div class="head">인원</div>
                                 <div class="text">
@@ -117,7 +117,9 @@
                     <div class="search">
                         <a href="#">
                             <div class="search_box">
-                                <div class="search_img">돋보기</div>
+                                <div class="search_img">
+                                    <img src="img/mag.png" alt="">
+                                </div>
                                 <div class="search_text">검색</div>
                             </div>
                         </a>
@@ -127,60 +129,114 @@
 
             <!-- middle 부분 -->
             <div class="middle">
-                <div class="encouragement">모두가 힘을 모아 함께 한다면, 이겨낼 수 있습니다.</div>
+                <span class="encouragement">Where? 수요일 저녁 6시 30분 설입에서!<br>What? 저녁 -> 빡코딩 -> 뒤풀이<br>Who?</span>
             </div>
 
             <!-- adv 부분 -->
             <div class="bottom">
-                <div class="first_adv">
-                    <div class="adv_top">
-                        <div class="adv_img">Jaehwan</div>
-                        <div class="adv_new">NEW</div>
-                    </div>
-                    <div class="adv_bottom">
-                        <div class="adv_title">Jaehwan</div>
-                        <div class="adv_text">세계 각지의 호스트가 진행하고 모두 함께하는 독특한 체험을 즐겨보세요.</div>
-                    </div>  
+                <div class="adv1">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>재환</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Jaehwan
+                            </div>
+                            <div class="adv_text">
+                                <span>
+                                    한가해요.
+                                </span> 
+                            </div>
+                        </div>
+                    </div>                      
                 </div>
-                <div class="second_adv">
-                    <div class="adv_top">
-                        <div class="adv_img">Sumin</div>
-                        <div class="adv_new">NEW</div>
-                    </div>
-                    <div class="adv_bottom">
-                        <div class="adv_title">Sumin</div>
-                        <div class="adv_text">한 달 이상 장기 숙박할 숙소를 에어비앤비에서 찾아보세요.</div>
-                    </div>  
+                <div class="adv2">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>수민</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Sumin
+                            </div>
+                            <div class="adv_text">
+                                html/css 마스터
+                            </div>
+                        </div>
+                    </div>                      
                 </div>
-                <div class="third_adv">
-                    <div class="adv_top">
-                        <div class="adv_img">Eunjoo</div>
-                        <div class="adv_new">NEW</div>
-                    </div>
-                    <div class="adv_bottom">
-                        <div class="adv_title">Eunjoo</div>
-                        <div class="adv_text">코로나 19 구호 인력을 위한 숙소를 찾거나 제공하세요.</div>
-                    </div>
+                <div class="adv3">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>은주</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Eunjoo
+                            </div>
+                            <div class="adv_text">
+                                화이팅!
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
-                <div class="fourth_adv">
-                    <div class="adv_top">
-                        <div class="adv_img">Yunny</div>
-                        <div class="adv_new">NEW</div>
+                <div class="adv4">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>승연</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Yunny
+                            </div>
+                            <div class="adv_text">
+                                쾌차하세요!
+                            </div>
+                        </div>
                     </div>
-                    <div class="adv_bottom">
-                        <div class="adv_title">Yunny</div>
-                        <div class="adv_text">코로나 19 구호 인력을 위한 숙소를 찾거나 제공하세요.</div>
-                    </div>
+                    
                 </div>
-                <div class="fifth_adv">
-                    <div class="adv_top">
-                        <div class="adv_img">Hyungseok</div>
-                        <div class="adv_new">NEW</div>
+                <div class="adv5">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/5.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>형석</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Hyungseok
+                            </div>
+                            <div class="adv_text">
+                                수요일에 봐용.
+                            </div>
+                        </div>
                     </div>
-                    <div class="adv_bottom">
-                        <div class="adv_title">Hyungseok</div>
-                        <div class="adv_text">코로나 19 구호 인력을 위한 숙소를 찾거나 제공하세요.</div>
-                    </div>
+                    
                 </div>
             </div>
         </header>
