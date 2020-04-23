@@ -1,56 +1,250 @@
 
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8" />
         <title>Airbnb</title>
         <link rel= "stylesheet" type ="text/css" href="main.css"/>
-        <link rel="stylesheet" href="reset.css">
+        <meta charset="utf-8">
+        <meta name="author" content="jaehwan, sumin, eunjoo, hyungseok, yunny">
+        <meta name="snulion_airbnb" content="에어비엔비 만들어보기">
+        <meta name="keywords" content="snulion8기, airbnb, practice">
+        <meta name="generator" content="Visual Studio Code">
+        <title>Airbnb</title>
+
+        <!-- CSS style -->
+        <link rel="stylesheet" href="main.css">
     </head>
+        
     <body>
         <!-- jaehwan's part -->
-        <!-- <header>
-            <div class="top_inner">
-                <div class="top_menu">
+        <header>
+
+            <!-- top 부분 -->
+            <div class="top">
+
+                <!-- 메인 로고 -->
+                <div class="main_logo">
+                    <a href="https://www.airbnb.co.kr/">
+                        <img src="img/logo.png" alt="에어비엔비 로고">
+                    </a>
+                </div>
+
+                <!-- 메인 메뉴 -->
+                <div class="menu">
                     <div class="language">
-                        <div class="globe">
-                            <a href="#"><img src="img/globe.png" alt="">
-                            </a>
-                        </div>
-                        <div class="arrow">
-                            <a href=""><img src="img/arrow_down.png" alt="">
-                            </a>
-                        </div>
-                    </div>                    
-                    <div class="menu_1">
-                        <a href="">
-                            숙소 호스트 되기
+                        <a href="#">
+                            <div class="globe">
+                                <img src="img/globe.png" alt="언어선택">
+                            </div>
+                            <div class="arrow">
+                                <img src="img/arrow_down.png" alt="언어선택">
+                            </div>
                         </a>
                     </div>
-                    <div class="menu_2">
-                        <a href="">
-                            체험 호스팅하기
-                        </a>
-                    </div>
-                    <div class="menu_3">
-                        <a href="">
-                            도움말
-                        </a>
-                    </div>
-                    <div class="login">
-                        <a href="">
-                            로그인
-                        </a>
-                    </div>
-                    <div class="register">
-                        <a href="">
-                            회원가입
+                    <a href="#">
+                        <div class="host">숙소 호스트 되기</div>
+                    </a>
+                    <a href="#">
+                        <div class="hosting">체험 호스팅하기</div>
+                    </a>
+                    <a href="#">
+                        <div class="help">도움말</div>
+                    </a>
+                    <a href="#">
+                        <div class="sign_in">로그인</div>
+                    </a>
+                    <div class="sign_box">
+                        <a href="#">
+                            <div class="sign_up">회원 가입</div>
                         </a>
                     </div>
                 </div>
-            </div> 
+                
+            </div>
+
+            <!-- nav 부분 -->
+            <div class="nav">
+
+                <!-- nav 메뉴 -->
+                <div class="nav_menu">
+                    <div class="nav_menu1">
+                        <a href="#">숙소</a>
+                    </div>
+                    <div class="nav_menu2">
+                        <a href="#">장기 숙박</a>
+                    </div>
+                    <div class="nav_menu3">
+                        <a href="#">체험</a>
+                    </div>
+                    <div class="nav_menu4">
+                        <a href="">온라인 체험
+                            <div class="nav_add">
+                            NEW
+                            </div>
+                        </a>                        
+                    </div>
+                </div>
+
+                <!-- nav 입력 -->
+                <div class="nav_input">
+                    <div class="real_input">
+                        <label for="where">
+                            <div class="location">
+                                <div class="head">
+                                    위치
+                                </div>
+                                <div class="text">
+                                    <input id="where" type="text" placeholder="도시, 랜드마크 또는 주소를 입력하세요.">
+                                </div>
+                            </div>
+                        </label>
+                        <button class="checkout">
+                            <div class="checkin">
+                                <div class="head">체크인/체크아웃</div>
+                                <div class="text">
+                                    <input type="date" value="날짜 추가.">
+                                </div>
+                            </div>
+                        </button>                            
+                        <button class="people">
+                            <div class="personnel">
+                                <div class="head">인원</div>
+                                <div class="text">
+                                    <input type="number" placeholder="게스트 추가">
+                                </div>
+                            </div>
+                        </button>                            
+                    </div>
+                    <div class="search">
+                        <a href="#">
+                            <div class="search_box">
+                                <div class="search_img">
+                                    <img src="img/mag.png" alt="">
+                                </div>
+                                <div class="search_text">검색</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- middle 부분 -->
+            <div class="middle">
+                <span class="encouragement">Where? 수요일 저녁 6시 30분 설입에서!<br>What? 저녁 -> 빡코딩 -> 뒤풀이<br>Who?</span>
+            </div>
+
+            <!-- adv 부분 -->
+            <div class="bottom">
+                <div class="adv1">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>재환</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Jaehwan
+                            </div>
+                            <div class="adv_text">
+                                <span>
+                                    풋풋한(?) 21살때. <br>속초 놀러갔었어요. <br>원래 안경껴요. 외출할땐 렌즈껴요!
+                                </span> 
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+                <div class="adv2">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>수민</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Sumin
+                            </div>
+                            <div class="adv_text">
+                                html/css 마스터. <br>모르는거 물어보면 잘 알려줘서 너무 좋아요. <br>'오빠'라는 단어 좋아하는 듯.  
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+                <div class="adv3">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>은주</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Eunjoo
+                            </div>
+                            <div class="adv_text">
+                                실세. 숨은 고수<br>개발자 도구 활용을 너무 잘하는 것 같아요.<br>컴공 복전하는거 넘 부럽.
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="adv4">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>승연</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Yunny
+                            </div>
+                            <div class="adv_text">
+                                쾌차하세요!<br>
+                                코딩데이 때 얼굴 보고 말 놓은것 같긴 한데..
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="adv5">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/5.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>형석</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Hyungseok
+                            </div>
+                            <div class="adv_text">
+                                형석오빠.<br>형석이 사진 너무 멋있어서 이렇게 넣을 생각 했음.<br>3대 400...
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </header>
- -->
+ 
         <!-- eunjoo's part -->
         <!-- 1ST CARD-NEWS SECTION -->
         <section class="card-news">
