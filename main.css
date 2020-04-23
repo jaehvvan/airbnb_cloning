@@ -147,7 +147,6 @@ header .nav_input {
     height: 100px;
     min-width: 1560px;
     margin-top: 15px;
-    
 }
 
 header .nav_input .head {
@@ -352,7 +351,6 @@ header .bottom img {
 header .bottom .adv1 {
     display: flex;
     flex: 1 1 200px;
-    
 }
 header .bottom .adv2 {
     display: flex;
@@ -406,4 +404,3 @@ header .bottom .adv_text {
     margin-top: 3px;
     overflow: hidden;
 }
-
