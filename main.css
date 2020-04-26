@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 /* top 레이아웃 */
 header .top {
     width: auto;
@@ -403,9 +401,6 @@ header .bottom .adv_text {
     margin-top: 3px;
     overflow: hidden;
 }
-
-/* CARD-NEWS SECTION */
-/*@charset "UTF-8";
 
 /* top 레이아웃 */
 header .top {
