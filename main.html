@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="jaehwan, sumin, eunjoo, hyungseok, yunny">
+        <meta name="snulion_airbnb" content="에어비엔비 만들어보기">
+        <meta name="keywords" content="snulion8기, airbnb, practice">
+        <meta name="generator" content="Visual Studio Code">
+        <title>Airbnb</title>
+
+        <!-- CSS style -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+        
+    <body>
+        <!-- jaehwan's part -->
+        <header>
+
+            <!-- top 부분 -->
+            <div class="top">
+
+                <!-- 메인 로고 -->
+                <div class="main_logo">
+                    <a href="https://www.airbnb.co.kr/">
+                        <img src="img/logo.png" alt="에어비엔비 로고">
+                    </a>
+                </div>
+
+                <!-- 메인 메뉴 -->
+                <div class="menu">
+                    <div class="language">
+                        <a href="#">
+                            <div class="globe">
+                                <img src="img/globe.png" alt="언어선택">
+                            </div>
+                            <div class="arrow">
+                                <img src="img/arrow_down.png" alt="언어선택">
+                            </div>
+                        </a>
+                    </div>
+                    <a href="host.html">
+                        <div class="host">숙소 호스트 되기</div>
+                    </a>
+                    <a href="#">
+                        <div class="hosting">체험 호스팅하기</div>
+                    </a>
+                    <a href="#">
+                        <div class="help">도움말</div>
+                    </a>
+                    <a href="#">
+                        <div class="sign_in">로그인</div>
+                    </a>
+                    <div class="sign_box">
+                        <a href="#">
+                            <div class="sign_up">회원 가입</div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- nav 부분 -->
+            <div class="nav">
+
+                <!-- nav 메뉴 -->
+                <div class="nav_menu">
+                    <div class="nav_menu1">
+                        <a href="#">숙소</a>
+                    </div>
+                    <div class="nav_menu2">
+                        <a href="#">장기 숙박</a>
+                    </div>
+                    <div class="nav_menu3">
+                        <a href="#">체험</a>
+                    </div>
+                    <div class="nav_menu4">
+                        <a href="">온라인 체험
+                            <div class="nav_add">
+                            NEW
+                            </div>
+                        </a>                        
+                    </div>
+                </div>
+
+                <!-- nav 입력 -->
+                <div class="nav_input">
+                    <div class="real_input">
+                        <label for="where">
+                            <div class="location">
+                                <div class="head">
+                                    위치
+                                </div>
+                                <div class="text">
+                                    <input id="where" type="text" placeholder="도시, 랜드마크 또는 주소를 입력하세요.">
+                                </div>
+                            </div>
+                        </label>
+                        <button class="checkout">
+                            <div class="checkin">
+                                <div class="head">체크인/체크아웃</div>
+                                <div class="text">
+                                    <input type="date" value="날짜 추가.">
+                                </div>
+                            </div>
+                        </button>                            
+                        <button class="people">
+                            <div class="personnel">
+                                <div class="head">인원</div>
+                                <div class="text">
+                                    <input type="number" placeholder="게스트 추가">
+                                </div>
+                            </div>
+                        </button>                            
+                    </div>
+                    <div class="search">
+                        <a href="list.html">
+                            <div class="search_box">
+                                <div class="search_img">
+                                    <img src="img/mag.png" alt="">
+                                </div>
+                                <div class="search_text">검색</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- middle 부분 -->
+            <div class="middle">
+                <span class="encouragement">Where? 수요일 저녁 6시 30분 설입에서!<br>What? 저녁 -> 빡코딩 -> 뒤풀이<br>Who?</span>
+            </div>
+
+            <!-- adv 부분 -->
+            <div class="bottom">
+                <div class="adv1">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>재환</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Jaehwan
+                            </div>
+                            <div class="adv_text">
+                                <span>
+                                    풋풋한(?) 21살때. <br>속초 놀러갔었어요. <br>원래 안경껴요. 외출할땐 렌즈껴요!
+                                </span> 
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+                <div class="adv2">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>수민</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Sumin
+                            </div>
+                            <div class="adv_text">
+                                html/css 마스터. <br>모르는거 물어보면 잘 알려줘서 너무 좋아요. <br>'오빠'라는 단어 좋아하는 듯.  
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+                <div class="adv3">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>은주</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Eunjoo
+                            </div>
+                            <div class="adv_text">
+                                실세. 숨은 고수<br>개발자 도구 활용을 너무 잘하는 것 같아요.<br>컴공 복전하는거 넘 부럽.
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="adv4">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>승연</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Yunny
+                            </div>
+                            <div class="adv_text">
+                                쾌차하세요!<br>
+                                코딩데이 때 얼굴 보고 말 놓은것 같긴 한데..
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="adv5">
+                    <div class="container">
+                        <div class="adv_top">
+                            <div class="adv_img">
+                                <img src="img/5.jpg" alt="">
+                            </div>
+                            <div class="adv_new">
+                                <span>형석</span>
+                            </div>
+                        </div>
+                        <div class="adv_bottom">
+                            <div class="adv_title">
+                                Hyungseok
+                            </div>
+                            <div class="adv_text">
+                                형석오빠.<br>형석이 사진 너무 멋있어서 이렇게 넣을 생각 했음.<br>3대 400...
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <!-- eunjoo's part -->
+        <section class="card_news">
+            <div class ="card_blocks">
+                <div class="description">
+                    <h1>멋쟁이 사자처럼 활동 소개</h1>
+                    <p>
+                        다함께 모여 웹 프로그래밍을 배우고 즐겁게 술도 마시는 참 좋은 동아리 와아!!!
+                    </p>
+                </div>
+                <a href="online.html">
+                    <button>모두 둘러보기</button>
+                </a>
+                <div class="card1">
+                    <img src="img/card1.png"/>
+                    <div class="card_info">
+                        처음 본 8기와 임원진들!! <br>
+                        개성 넘치는 자기소개로 함께한 Zoom Online OT 
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="img/card2.png"/>
+                    <div class="card_info">
+                         토요일 토요일은 알찬 세미나! 
+                    </div>
+                </div>
+                <div class="card3">
+                    <img src="img/card3.png"/>
+                    <div class="card_info">
+                         함께해서 더 재밌는 월,화 coding day!
+                    </div>
+                </div>
+                <div class="card4">
+                    <img src="img/card4.png"/>
+                    <div class="card_info">
+                         빡센 코딩 후엔 언제나 맛있는 맥쥬 한 잔!
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- yunny's part -->
+        <section class="downside">
+            <div id = "donation">
+                <div class = "for_corona">
+                    <h2>최전선에서 싸우는 구호인력에게<br>숙소를 제공하는 에어비앤비의<br>노력에 동참해주세요.</h2>
+                    <button onclick = "location.href = 'https://www.airbnb.co.kr/openhomes/covid19relief'">동참하기</button>
+                </div>
+                <div class = "for_corona">
+                    <p>코로나19와 맞서 싸우는 보건의료 인력, 긴급 구호 요원, 응급구조<br>요원등 10만 명에게 임시 숙소를 제공하는 '구호인력을 위한 숙소'<br>
+                    프로그램에 에어비앤비 호스트 여러분의 참여를 부탁드립니다.<br>이는 감염 노출 위험이 있는 구호 인력에게 병원과 가까우면서도<br>
+                    가족과 떨어져 안전하게 머물 수 있는 숙소를 제공하기<br> 위한 것입니다.</p>
+                </div>
+            </div>
+            <div id = "latest_info_all">
+            <h3>최신 정보 확인하기</h3>
+            <div id ="info_list"> 
+            <ul class = "latest_info">
+                <li><p>게스트를 위한 정보</p></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/covid" target="_blank">
+                <span class = "title">여행 관련 업데이트</span><br><span class = "subtitle">알아두어야 할 사항</span></a></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19" target="_blank">
+                <span class = "title">예약 취소 옵션</span><br><span class = "subtitle">취소 가능 대상 및 환불 범위 알아보기</span></a></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/help/home" target="_blank">
+                <span class = "title">도움말 센터</span><br><span class = "subtitle">필요한 도움받기</span></a></li>
+            </ul>
+            <ul class = "latest_info">
+                <li><p>호스트를 위한 정보</p></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/host-message" target="_blank">
+                <span class = "title">브라이언 체스키 CEO의 메세지</span><br><span class = "subtitle">에어비앤비 CEO의 영상 메시지 보기</span></a></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/covid" target="_blank">
+                <span class = "title">호스팅에 도움이 되는 자료</span><br><span class = "subtitle">코로나19로 인한 영향</span></a></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/covid19relief" target="_blank">
+                <span class = "title">구호 인력을 위한 숙소 제공하기</span><br><span class = "subtitle">구호 인력 지원 방법 알아보기</span></a></li>
+            </ul>
+            <ul class = "latest_info">
+                <li><p>코로나19 구호 인력을 위한 정보</p></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/openhomes/covid19relief" target="_blank">
+                <span class = "title">구호 인력을 위한 숙소</span><br><span class = "subtitle">프로그램에 대해 알아보기</span></a></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/covid19relief-guests" target="_blank">
+                <span class = "title">숙소 신청</span><br><span class = "subtitle">숙소 옵션 확인하기</span></a></li>
+                <li class ="border"><a href = "https://www.airbnb.co.kr/openhomes/covid19relief?donate" target="_blank">
+                <span class = "title">기부하기</span><br><span class = "subtitle">비영리 단체 지원하기</span></a></li>
+            </ul>
+            <ul class = "latest_info">
+                <li><p>기타</p></li>
+                <li class ="border"><a href = "https://news.airbnb.com/ko?_ga=2.43440613.175050436.1587999694-68256386.1587999694" target="_blank">
+                <span class = "title">에어비앤비 뉴스룸</span><br><span class = "subtitle">최근 발표한 사항</span></a></li>
+                <li class ="border"><a href = "https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">
+                <span class = "title">세계보건기구</span><br><span class = "subtitle">관련정보 및 업데이트</span></a></li>
+            </ul>
+            </div>
+            </div>
+            <div id = "sitemap_all">
+            <ul class = "sitemap">
+                <li><p>소개</p></li>
+                <li><a href = "https://www.airbnb.co.kr/diversity">
+                <span class = "menu">다양성 및 소속감</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/d/accessibility">
+                <span class = "menu">접근성</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/trust">
+                <span class = "menu">신뢰와 안전</span></a></li>
+                <li><a href = "https://www.airbnbcitizen.com/?utm_source=airbnb&utm_medium=footer&utm_campaign=product">
+                <span class = "menu">Airbnb Citizen</span></a></li>
+                <li><a href = "https://news.airbnb.com/ko/" target="_blank">
+                <span class = "menu">뉴스룸</span></a></li>
+            </ul>
+            <ul class = "sitemap">
+                <li><p>커뮤니티</p></li>
+                <li><a href = "https://www.airbnb.co.kr/magazine">
+                <span class = "menu">에어비앤비 매거진</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/work?s=footer">
+                <span class = "menu">에어비앤비 비즈니스 프로그램</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/invite?r=6">
+                <span class = "menu">친구 초대하기</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/careers">
+                <span class = "menu">채용정보</span></a></li>
+            </ul>
+           <ul class = "sitemap">
+                <li><p>호스팅하기</p></li>
+                <li><a href = "https://www.airbnb.co.kr/host/homes?from_footer=1">
+                <span class = "menu">숙소 호스팅</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/host/experiences?from_footer=1">
+                <span class = "menu">체험 호스팅</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/help/responsible-hosting">
+                <span class = "menu">책임감 있는 호스팅</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/openhomes?from_footer=1">
+                <span class = "menu">Open Homes</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/d/olympics" target="_blank">
+                <span class = "menu">올림픽</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/resources" target="_blank">
+                <span class = "menu">자료 센터</span></a></li>
+            </ul>
+            <ul class = "sitemap">
+                <li><p>에어비앤비 지원</p></li>
+                <li><a href = "https://www.airbnb.co.kr/help?from=footer">
+                <span class = "menu">도움말 센터</span></a></li>
+                <li><a href = "https://www.airbnb.co.kr/neighbors">
+                <span class = "menu">에어비앤비 이웃 민원 지원</span></a></li>
+            </ul>
+            </div>
+            <footer>
+                <div id ="leftside">
+                <p>&copy; 2020 Airbnb, Inc. All rights reserved</p>
+                <ul>
+                    <li class = "footer_list"><a href = "https://www.airbnb.co.kr/terms/privacy_policy">개인정보 처리방침</a></li>
+                    <li class = "footer_list"><a href = "https://www.airbnb.co.kr/terms">이용약관</a></li>
+                    <li class = "footer_list"><a href = "https://www.airbnb.co.kr/sitemaps/v2">사이트맵</a></li>
+                    <li class = "footer_list"><a href = "https://www.airbnb.co.kr/home/updated_cancellation_policies?korean_strict_policy=true#strict">한국의 변경된 환불 정책</a></li>
+                </ul>
+                </div>
+                <div id ="rightside">
+                <div id = "footer_list2">
+                    <a href=""><img src="img/globe.png"/>한국어(KR)</a>
+                    <a href=""><img src="img/wonlogo.png"/>KRW</a>
+                </div>
+                <div id = "sns">
+                    <a href ="https://www.facebook.com/AirbnbKorea"><img src ="img/facebooklogo.png"/></a>
+                    <a href ="https://twitter.com/airbnb"><img src ="img/twitterlogo.png"/></a>
+                    <a href ="https://instagram.com/airbnb"><img src ="img/instagramlogo.png"/></a>
+                    <a href ="https://blog.naver.com/airbnbkr"><img src ="img/naver_blog.png"/></a>
+                    <a href ="https://post.naver.com/airbnb_kr"><img src ="img/naver_post.jpg"/></a>
+                </div>
+                </div>
+            </footer>
+
+        </section>    
+        </div>
+    </body>
+</html>
