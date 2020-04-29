@@ -1,0 +1,246 @@
+
+/* 헤더 */
+
+.header {
+    position: fixed;
+    height: 81px;
+    width: -webkit-fill-available;
+    padding-right : 36px;
+    padding-left: 36px;
+    border-bottom: 1px solid #EBEBEB !important;
+    background-color: white;
+    z-index: 10000;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 81px;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 32px;
+    height: 34px;
+}
+
+.logo > img {
+    height: 100%;
+    width: 100%;
+}
+
+.slider {
+    width: 264px;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #484848;
+    padding-left: 22px;
+    justify-content: space-around;
+}
+.left1 { 
+    display: flex;
+    align-items: center;
+    color: #008489;
+    height: 81px !important;
+    border-bottom: #008489 2px solid;
+}
+
+.right {
+    display: flex;
+}
+
+.income {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #484848;
+    font-weight: 400;
+}
+
+#q-icon {
+    margin: 5px;
+}
+
+.number {
+    font-size: 24px;
+    color: #484848;
+    font-weight: 800;
+    padding-top: 2px ;
+    padding-bottom: 2px ;
+    margin-left: 8px ;
+    margin-right: 16px ;
+}
+
+.start-button {
+    width: 83px;
+    height: 35px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #DB3742;
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px solid;
+}
+
+/* 배너 */
+
+.banner {
+    position: relative;
+    display: flex;
+    width : -webkit-fill-available;
+    height: 600px;
+    top: 83px;
+}
+
+.banner-img {
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+.banner-img > img {
+    width : 100%;
+    height: 100%;
+}
+
+/* 배너 인풋 박스 */
+
+.banner-input {
+    position: absolute;
+    width: 480px;
+    height: 437px;
+    background-color: white;
+    color: #484848;
+    border-radius: 6px;
+    border: 0px solid;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px) {
+    .banner-img {
+        width: 100%;
+    }
+    .banner-input {
+        display: none;
+    }
+}
+
+.banner-inner {
+    margin: 32px;
+}
+
+.title1 {
+   color: #333333;
+   font-size: 38px;
+   word-break: keep-all;
+   font-weight: 700;
+   margin-bottom: 22px;
+}
+
+.title2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.place-input {
+    margin-top: 13px;
+    margin-bottom: 8px;
+    height: 22px;
+    width: 393px;
+    font-size: 14px;
+    border: #e7e7e7 0.5px solid;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+}
+.place-input::placeholder {
+    color: #434343;
+}
+
+
+.option {
+    display: flex;
+}
+
+.option1 {
+    height: 22px;
+    width: 265px;
+    font-size: 14px;
+    background-color: white;
+    border: #e7e7e7 0.5px solid;
+    border-radius: 6px;
+    padding: 11px;
+    margin-right: 10px;
+}
+
+.option2 {
+    height: 22px;
+    width: 190px;
+    font-size: 14px;
+    background-color: white;
+    border: #e7e7e7 0.5px solid;
+    border-radius: 6px;
+    padding: 11px;
+}
+
+.option1 > select {
+    width: 204px;
+}
+
+select {
+    width: 150px;
+    font-size: 14px;
+    border: 0 solid;
+    background-color: white;
+    color: #434343;
+}
+
+select:focus {
+    outline: none;
+}
+
+.income-bottom {
+    display: flex;
+    align-items: baseline;
+    margin-top: 26px;
+    margin-bottom: 19px;
+    pointer-events: none;
+}
+
+.income-bottom > .number {
+    padding: 0;
+    margin: 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: #333333;
+    margin-right: 8px;
+}
+
+.start-button2 {
+    width: 416px;
+    height: 46px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #FF5A5F;
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px solid;
+}
+
+/* 배너 밑 p1 */
