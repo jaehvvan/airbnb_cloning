@@ -916,3 +916,168 @@ header .bottom .adv_text {
     align-items: stretch;
     height: 550px;
 }
+
+/* CARD-NEWS - 4 CARDS*/
+.downside {
+    background-color: white ;
+    width: auto;
+    min-width: 1560px;
+    max-width: 3000px;
+}
+
+.downside a:link,.downside a:visited {
+    text-decoration:none;
+}
+
+.downside a:link .title,.downside a:visited .title {
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.downside a:link .subtitle,.downside a:visited .subtitle {
+    color:gray;
+    font-size: smaller;
+    
+}
+
+.downside a:link .menu,.downside a:visited .menu {
+    color:black;
+    font-size: smaller;
+    
+}
+
+
+.downside img{
+    width: 20px;
+    height: 20px;
+}
+
+#donation {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    margin:50px 100px;
+
+
+}
+
+.for_corona {
+    width: auto;
+    min-width: 500px;
+    max-width: 800px;
+}
+
+.for_corona button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#latest_info_all {
+    background-color: #f7f7f7 ;
+    padding:60px;
+    border-bottom:lightgray solid 1px;
+}
+
+#latest_info_all h3{
+    
+}
+
+#info_list, #sitemap_all {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.latest_info, .sitemap {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+
+.border {
+    min-width: 370px  ;
+    border-top: lightgray solid 0.5px;
+    padding: 20px 5px;
+    
+}
+
+.latest_info li p {
+    border-top: none;
+    
+}
+
+#sitemap_all {
+    padding:60px;
+}
+
+
+.sitemap {
+    list-style: none;
+}
+
+.sitemap li{
+    min-width: 370px;
+    padding: 7px 5px;
+}
+
+.sitemap p{
+    font-size: small;
+    font-weight: bold;
+}
+
+footer{
+    position: ;
+    width: auto;
+    max-width: 1600px;
+    margin: 10px;
+    border-top:lightgray solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+footer li{
+    float: left;
+    margin: 1px;
+
+} 
+
+#leftside {
+    display: flex;
+}
+
+#rightside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sns, #footer_list2 {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+#sns img, #footer_list2 img{
+    margin: 0px 7px;
+}
+.footer_list a:link ,.footer_list a:visited {
+    color:black;
+    font-size: smaller;
+    text-decoration:none;
+    
+}
+
+#footer_list2 a:link ,#footer_list2 a:visited {
+    color:black;
+    font-size: smaller;
+    text-decoration: underline ;
+    
+}
