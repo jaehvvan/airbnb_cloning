@@ -939,9 +939,9 @@ header .bottom .adv_text {
 }
 
 .signup-img  {
-    width: 600px;
-    height: auto;
-    border-radius: 15px;
+    width: 600px !important ;
+    height: auto !important;
+    border-radius: 15px !important;
 }
 
 .close { 
@@ -955,7 +955,6 @@ header .bottom .adv_text {
     height: 56px;
     cursor: pointer;
 }
-<<<<<<< HEAD
 /* CARD-NEWS - 4 CARDS*/
 .downside {
     background-color: white ;
@@ -1120,5 +1119,3 @@ footer li{
     text-decoration: underline ;
     
 }
-=======
->>>>>>> 9c5608f78fe3241aed3502e21e10f3fe2a817dd1
