@@ -910,11 +910,12 @@ header .bottom .adv_text {
 .card_news .card4 {
     grid-area: 3/3/span 1/span 2;
     display: flex;
-    margin-top: -55px;
+    margin-top: -75px;
+    padding-top: 10px;
     min-width: 700px;
     flex-direction: column;
     align-items: stretch;
-    height: 550px;
+    height: 555px;
 }
 
 /* CARD-NEWS - 4 CARDS*/
